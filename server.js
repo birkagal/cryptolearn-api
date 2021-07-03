@@ -18,4 +18,13 @@ app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
 
+app.get("/", (req, res) => {
+  res.send({
+    description:
+      "This is REST API Server used for birkagal.github.io/cryptolearn",
+    github: "https://github.com/birkagal/cryptolearn-api",
+    client_github: "https://github.com/birkagal/cryptolearn",
+  });
+});
+
 module.exports = app;
