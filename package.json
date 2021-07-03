@@ -1,0 +1,30 @@
+{
+  "name": "crypto-learn-api",
+  "version": "1.0.0",
+  "description": "REST API server used for CryptoLearn web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "CryptoLearn",
+    "REST",
+    "API"
+  ],
+  "author": "Gal Birka",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "engines": {
+    "node": "14.15.3"
+  }
+}
