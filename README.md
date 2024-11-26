@@ -7,7 +7,7 @@
 The project is built with NodeJS and Express using Routers.\
 Mining is achived with  [`crypto-js`](https://www.npmjs.com/package/crypto-js) SHA256 cryptographic function and Keys are done with [`elliptic`](https://www.npmjs.com/package/elliptic) secp256k1 curve.
 
-The server is hosted on [`heroku`](https://www.heroku.com/) and can be accessed @ https://cryptolearn-api.herokuapp.com/
+The server is hosted on [`render.com`](https://render.com/) and can be accessed @ [https://cryptolearn-api.herokuapp.com/](https://cryptolearn-api.onrender.com/)
 
 ## How to run locally
 To run the server on your machine, clone this repo `https://github.com/birkagal/cryptolearn-api.git`
